@@ -12,7 +12,6 @@ function handleSubmit(event) {
     }
 
     // console.log(`mail: ${email.value}, password: ${password.value}`);
-    console.log(email.value, password.value);
+    console.log({email: email.value, password: password.value });
     event.currentTarget.reset();
     }
-
